@@ -1,0 +1,192 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-container
+{
+    display: flex;
+    height: 100vh;
+}
+
+#left-container
+{
+    background-color: #E0ACD5;
+    width: 20%;
+    padding-left: 20px;
+}
+
+.big-icon
+{
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+}
+
+.big-text
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.icon
+{
+    width: 15px;
+    height: 15px;
+    background-color: #000000;
+}
+
+.content-link p
+{
+    font-weight: 700;
+}
+
+.content-link
+{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+#left-middle-container
+{
+    padding: 30px 0;
+}
+
+#right-container
+{
+    width: 80%;
+    background-color: #A0CFD3;
+    overflow: auto;
+}
+
+#right-top-container
+{
+    background-color: #ffffff;
+}
+
+.nav-container
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.container
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.tiny-text
+{
+    font-size: 0.8rem;
+}
+
+.container input
+{
+    width: 500px;
+    height: 30px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #A0CFD3;
+}
+
+.btn
+{
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 35px;
+    background-color: #E0ACD5;
+}
+
+#right-bottom-container
+{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.project-icons
+{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: end ;
+}
+
+.bold-text
+{
+    font-weight: 700;
+}
+
+#projects
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width: 70%;
+
+}
+
+#projects p
+{
+    padding: 10px 0;
+}
+
+.project
+{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border-left: 8px solid #BC8034;
+}
+
+.title-container
+{
+    padding: 10px 0 0 20px;
+    display: flex;
+}
+
+.bigwidth
+{
+    width: 70%;
+}
+
+#announcements
+{
+    width: 30%;
+}
+
+.announcement
+{
+    padding: 10px;
+    border-bottom: 1px solid #A0CFD3;
+}
+
+.announcement-container
+{
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.announcement-container p
+{
+    padding: 10px 0;
+}
+
+.news
+{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.trending-news
+{
+    padding-top: 15px;
+}
